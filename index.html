@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -13,7 +12,8 @@
   <script src="fanhoots.js"></script>
   </head>
   <body>
-    <div class="home container-fluid">
+    <div class="container-fluid">
+		<div class="home visible-md visible-lg hidden-sm hidden-xs">
       <div class="row top1">
         <div class="col-md-2 visible-md visible-lg hidden-sm hidden-xs">
            <img src="https://s32.postimg.org/d6b34yn0l/xyz.png" width="150" height="150" style="margin-top:0%;">
@@ -70,8 +70,10 @@
         </div>
 	  <br/>
         <h1 class="text-center color2" id="hh1"><span style="border-bottom:1px solid white;">FOR THE LOVE OF THE GAME</span></h1>
-        <h3 class="text-center color2" style="color:white;font-size:1.7em;">Be a part of Sports fans community where everyone cares about Sports as much as you.</h3>
-        <h3 class="text-center color2" style="color:white;font-size:1.7em;">Breathe live and talk sports</h3>
+        <h3 class="text-center color2 visible-md visible-lg hidden-sm hidden-xs" style="color:white;font-size:1.7em;">Be a part of Sports fans community where everyone cares about Sports as much as you.</h3>
+        <h3 class="text-center color2 hidden-md hidden-lg visible-sm visible-xs" style="color:white;font-size:1.7em;">Be a part of Sports fans community where everyone</h3>
+		<h3 class="text-center color2 hidden-md hidden-lg visible-sm visible-xs" style="color:white;font-size:1.7em;">cares about Sports as much as you.</h3>
+		<h3 class="text-center color2" style="color:white;font-size:1.7em;">Breathe live and talk sports</h3>
 		<h3 class="text-center color2" style="color:white;font-size:1.7em;">Enjoy!</h3><br/>
         <div class="text-center visible-md visible-lg hidden-sm hidden-xs"><button class="btn text-responsive" id="join" data-toggle="modal" data-target="#myModal1">Join us</button></div>
         <!--mobile-->
@@ -84,16 +86,99 @@
 
           </div>
         <!-- end -->
-			<div class="row" style="color:#336;margin-top:0%;">
-			<div class="col-xs-5"></div>
-			<div class="col-xs-2"><h3><span style="color:#ed2f59;font-size:0.9em;font-weight:599;" align="right">How it works!</span></h3></div>
-			<div class="col-xs-1"><a href="#how" title="Next page" style="color:#ed2f59;margin-left:-100%;">
+			<div class="row visible-md visible-lg hidden-xs hidden-sm" style="color:#336;margin-top:0%;">
+			<div class="col-md-5"></div>
+			<div class="col-md-2"><h3><span style="color:#ed2f59;font-size:0.9em;font-weight:599;margin-left:20%;">How it works!</span></h3></div>
+			<div class="col-md-1"><a href="#how" title="Next page" style="color:#ed2f59;margin-left:-50%;">
 				<i class="fa fa-angle-down fa-4x"></a></i>
 			</div>
-			<div class="col-xs-4"></div>
-		</div>
+			<div class="col-md-4"></div>
+			</div>
+      </div>
+	  <!--mobile view-->
+	<div class="home1 hidden-md hidden-lg visible-sm visible-xs">
+      <div class="row top1">
+        <div class="col-md-2 visible-md visible-lg hidden-sm hidden-xs">
+           <img src="https://s32.postimg.org/d6b34yn0l/xyz.png" width="150" height="150" style="margin-top:0%;">
+      	</div>
+          <div class="col-md-8"></div>
+          <div class="col-md-2 visible-md visible-lg hidden-sm hidden-xs" style="margin-top:4%; color:white; "  >
+            <button class="btn " id="login" style="color:white;" data-toggle="modal" data-target="#myModal">&nbspLogin&nbsp</button>
+            </div>
+            
+            <!--mobile-->
+            <div class="hidden-md hidden-lg visible-sm visible-xs pull-right" style="margin-top:3%; color:white;margin-right:10%; "  >
+            <button class="btn btn-block" style="color:white;" id="login" data-toggle="modal" data-target="#myModal">Login</button>
+            </div>
+                <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content" style="background-color:none;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+      </div>
+      <div class="modal-body hey">
+        
+                <form class="well" style="background-color:white;border:none;border-top:none;">
+                  <h2 class="text-center text-responsive" style="color:black;">LOGIN</h2>
+                  <hr style="border:1px solid #ccc;margin-top:-0.5%;"><br/>
+                  <input type="email" placeholder="Email" style="margin-left:6%;font-size:1.7em;">
+                  <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
+                  <input type="password" placeholder="Password" style="margin-left:6%;font-size:1.7em;";>
+                    <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
+                  <button type="submit" class="btn btn-block" style="width:96%;margin-left:5%;line-height:1.9em;background-color:#e21851;;color:white">LOGIN</button><br/>
+                  <hr style="border-bottom:1px solid black;margin-top:5%;"><br/>
+                  <button type="submit" class="btn btn-block text-center" style="width:96%;margin-left:5%;line-height:1.9em;color:white;background-color:#3b5998;"><i class="fa fa-facebook"></i>&nbsp&nbspLOGIN WITH FACEBOOK</button><br/>
+                </form>
+                
       </div>
       
+    </div>
+
+  </div>
+
+                </div>
+                
+                
+                
+          <div class="col-md-1"></div>
+        </div>
+        <!--</div>-->
+        <!--mobile view-->
+      	<div class=" row hidden-md hidden-lg visible-sm visible-xs" align="center">
+          <div class="col-xs-12"><img src="https://s32.postimg.org/d6b34yn0l/xyz.png" class="img-responsive center-block"></div>
+      		
+        </div>
+	  <br/>
+        <h1 class="text-center color2" id="hh1"><span style="border-bottom:1px solid white;">FOR THE LOVE OF THE GAME</span></h1>
+        <h3 class="text-center color2 visible-md visible-lg hidden-sm hidden-xs" style="color:white;font-size:1.7em;">Be a part of Sports fans community where everyone cares about Sports as much as you.</h3>
+        <h3 class="text-center color2 hidden-md hidden-lg visible-sm visible-xs" style="color:white;font-size:1.7em;">Be a part of Sports fans community where everyone</h3>
+		<h3 class="text-center color2 hidden-md hidden-lg visible-sm visible-xs" style="color:white;font-size:1.7em;">cares about Sports as much as you.</h3>
+		<h3 class="text-center color2" style="color:white;font-size:1.7em;">Breathe live and talk sports</h3>
+		<h3 class="text-center color2" style="color:white;font-size:1.7em;">Enjoy!</h3><br/>
+        <div class="text-center visible-md visible-lg hidden-sm hidden-xs"><button class="btn text-responsive" id="join" data-toggle="modal" data-target="#myModal1">Join us</button></div>
+        <!--mobile-->
+        <div class="text-center hidden-md hidden-lg visible-sm visible-xs">
+          <button class="btn" style="background-color:#2f2f51;font-size:3em;" id="join" data-toggle="modal" data-target="#myModal1">Join us</button>
+            
+ 
+
+  
+
+          </div>
+        <!-- end -->
+			<div class="row visible-md visible-lg hidden-xs hidden-sm" style="color:#336;margin-top:0%;">
+			<div class="col-md-5"></div>
+			<div class="col-md-2"><h3><span style="color:#ed2f59;font-size:0.9em;font-weight:599;margin-left:20%;">How it works!</span></h3></div>
+			<div class="col-md-1"><a href="#how" title="Next page" style="color:#ed2f59;margin-left:-50%;">
+				<i class="fa fa-angle-down fa-4x"></a></i>
+			</div>
+			<div class="col-md-4"></div>
+			</div>
+      </div>
+      </div>
       <!-- Modal -->
   <div class="modal fade" id="myModal1" role="dialog">
     <div class="modal-dialog">
