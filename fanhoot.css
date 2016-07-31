@@ -17,7 +17,8 @@ input:-moz-placeholder { font-size:1.5em; }
   //background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top; 
   //background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') repeat-y;
   background:url('background.jpg') no-repeat top;
-	min-height:50em;
+	min-height:40em;
+	height:42em;
 	width:100%;
 }
 input{
