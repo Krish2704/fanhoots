@@ -1,6 +1,9 @@
  @font-face { font-family: babasneue; src: url('fonts/BebasNeue.otf'); } 
+@font-face { font-family: ultralight; src: url('fonts/Montserrat-UltraLight.otf'); } 
+@font-face { font-family: light; src: url('fonts/Montserrat-Light.otf'); } 
+@font-face { font-family: regular; src: url('fonts/Montserrat-Regular.otf'); } 
 
-::-webkit-input-placeholder { font-size:1.5em; }
+::-webkit-input-placeholder { font-size:1em; }
 ::-moz-placeholder { font-size:1.5em; } /* firefox 19+ */
 :-ms-input-placeholder { font-size:1.5em; } /* ie */
 input:-moz-placeholder { font-size:1.5em; }
@@ -11,9 +14,10 @@ input:-moz-placeholder { font-size:1.5em; }
     transition: addClass 0.5s;
 }
 .home{
-  background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top; 
-  //background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') no-repeat center ;
-	min-height:50em;
+  //background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top; 
+  //background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') no-repeat;
+  background:url('hey.jpe') no-repeat bottom;
+	min-height:50.4em;
 	width:100%;
 }
 input{
@@ -74,6 +78,15 @@ a{
 	font-weight:400;
 	//border-bottom:1px solid white;
 }
+.changecolor{
+	font-family:ultralight;
+}
+.color1{
+	font-family:regular;
+}
+.color2{
+	font-family:light;
+}
 #join{
 	border-radius:50px;
 	background-color:white;
@@ -83,7 +96,7 @@ a{
 	margin-top:1%;
 	font-size:2em;
 	color:#333366;
-	font-family: Montsterrat;
+	font-family: light;
 
 }
 .fontall1{
@@ -118,13 +131,26 @@ a{
 hr{
   margin-left:5%;
 }
+.hey{
+	font-family:light;
+}
 input{
   border:none;
+  font-size:3em;
   background:none;
   //color:white;
   margin-left:5%;
 }
 input:focus{
   outline:none;
+  font-size:1.8em;
   color:black;
+}
+button:active{
+	outline:none;
+	border:none;
+}
+button:visited{
+	outline:none;
+	border:none;
 }
