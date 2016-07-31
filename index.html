@@ -5,9 +5,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="fanhoots.js"></script>
   </head>
   <body>
@@ -34,18 +36,18 @@
         <button type="button" class="close" data-dismiss="modal">&times;</button>
        
       </div>
-      <div class="modal-body">
+      <div class="modal-body hey">
         
-                <form class="well">
+                <form class="well" style="background-color:white;border:none;border-top:none;">
                   <h2 class="text-center text-responsive" style="color:black;">LOGIN</h2>
                   <hr style="border:1px solid #ccc;margin-top:-0.5%;"><br/>
-                  <input type="email" placeholder="Email" style="margin-left:6%;">
+                  <input type="email" placeholder="Email" style="margin-left:6%;font-size:1.7em;">
                   <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
-                  <input type="password" placeholder="Password" style="margin-left:6%";>
+                  <input type="password" placeholder="Password" style="margin-left:6%;font-size:1.7em;";>
                     <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
-                  <button type="submit" class="btn btn-block btn-danger" style="width:96%;margin-left:5%;line-height:1.9em;">LOGIN</button><br/>
+                  <button type="submit" class="btn btn-block" style="width:96%;margin-left:5%;line-height:1.9em;background-color:#e21851;;color:white">LOGIN</button><br/>
                   <hr style="border-bottom:1px solid black;margin-top:5%;"><br/>
-                  <button type="submit" class="btn btn-block btn-primary text-center" style="width:96%;margin-left:5%;line-height:1.9em;"><i class="fa fa-facebook"></i>&nbsp&nbspLOGIN WITH FACEBOOK</button><br/>
+                  <button type="submit" class="btn btn-block text-center" style="width:96%;margin-left:5%;line-height:1.9em;color:white;background-color:#3b5998;"><i class="fa fa-facebook"></i>&nbsp&nbspLOGIN WITH FACEBOOK</button><br/>
                 </form>
                 
       </div>
@@ -68,72 +70,72 @@
         </div>
         <br>
 	  
-        <h1 class="text-center" id="hh1"><span style="border-bottom:1px solid white;">FOR THE LOVE OF THE GAME</span></h1>
-        <h3 class="text-center" style="color:white;font-size:1.9em;">Be a part of Sports fans community.</h3>
-        <h3 class="text-center" style="color:white;font-size:1.9em;">Breathe live and talk sports.</h3>
-        <h3 class="text-center" style="color:white;font-size:1.9em;">Enjoy!</h3><br/>
-        <div class="text-center visible-md visible-lg hidden-sm hidden-xs"><button class="btn text-responsive" id="join">Join us</button></div>
+        <h1 class="text-center color2" id="hh1"><span style="border-bottom:1px solid white;">FOR THE LOVE OF THE GAME</span></h1>
+        <h3 class="text-center color2" style="color:white;font-size:1.9em;">Be a part of Sports fans community.</h3>
+        <h3 class="text-center color2" style="color:white;font-size:1.9em;">Breathe live and talk sports.</h3>
+        <h3 class="text-center color2" style="color:white;font-size:1.9em;">Enjoy!</h3><br/>
+        <div class="text-center visible-md visible-lg hidden-sm hidden-xs"><button class="btn text-responsive" id="join" data-toggle="modal" data-target="#myModal1">Join us</button></div>
         <!--mobile-->
         <div class="text-center hidden-md hidden-lg visible-sm visible-xs">
-          <button class="btn text-responsive" style="font-size:3em;" id="join">Join us</button>
-              <div class="container">
-  <!-- Trigger the modal with a button -->
+          <button class="btn text-responsive" style="font-size:3em;" id="join" data-toggle="modal" data-target="#myModal1">Join us</button>
+            
+ 
 
-  <button class="button btn" style="font-size:3em;" id="join" data-toggle="modal" data-target="#myModal">Join us</button>
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog jumbotron">
+  
+
+          </div>
+        <!-- end -->
+      </div>
+      
+      <!-- Modal -->
+  <div class="modal fade" id="myModal1" role="dialog">
+    <div class="modal-dialog">
     
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title"><h2 class="text-center text-responsive modal-title">REGISTER</h2>
-          <hr style="border:1px solid #ccc;margin-top:-0.5%;"></h4>
+          
         </div>
-        <div class="modal-body">
-          <form class="well">
-  <input type="text" placeholder="Name">
+        <div class="modal-body hey">
+          <form class="well" style="background-color:white; border:none">
+            <h4 class="modal-title"><h2 class="text-center text-responsive modal-title">REGISTER</h2>
+          <hr style="border:1px solid #ccc;margin-top:-0.5%;"></h4><br/>
+  <input type="text" placeholder="Name" style="margin-left:6%;font-size:1.7em;">
   <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
-  <input type="text" placeholder="Email">
+  <input type="text" placeholder="Email" style="margin-left:6%;font-size:1.7em;">
     <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
-  <input type="text" placeholder="Password">
+  <input type="text" placeholder="Password" style="margin-left:6%;font-size:1.7em;">
     <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
-  <button type="submit" class="btn btn-block btn-danger" style="width:96%;margin-left:5%;line-height:1.9em;">REGISTER</button><br/>
+  <button type="submit" class="btn btn-block" style="width:96%;margin-left:5%;line-height:1.9em;background-color:#e21851;;color:white">REGISTER</button><br/>
   <hr style="border-bottom:1px solid black;margin-top:5%;"><br/>
-  <button type="submit" class="btn btn-block btn-primary text-center" style="width:96%;margin-left:5%;line-height:1.9em;"><i class="fa fa-facebook"></i>&nbsp&nbspLOGIN WITH FACEBOOK</button><br/>
+  <button type="submit" class="btn btn-block text-center" style="width:96%;margin-left:5%;line-height:1.9em;background-color:#3b5998;;color:white"><i class="fa fa-facebook"></i>&nbsp&nbspLOGIN WITH FACEBOOK</button><br/>
      </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
       
-    </div>
+    
   </div>
   
 </div>
-
-          </div>
-        <!-- end -->
-      </div>
-      <br/>
+      <br/><br/><br/>
       <div class="container-fluid">
+        <h1 class="text-center color1" style="font-size:3em;color:#336;">How it works</h1><br/>
         <div class="row">
           <div class="col-md-1"></div>
           <div class="col-md-3">
-            <h3 class="text-center headall1">Share</h3>
-            <p class="fontall1 text-center">Stuff about your favorite teams,events & players.</p>
+            <h3 class="text-center headall1 color1" style="color:#336;font-size:31px;">Share</h3>
+            <p class="fontall1 text-center changecolor" style="color:#336;font-size:20px;">Stuff about your favorite teams,events & players.</p>
             <img src="share.svg" height="150" width="150" class="center-block img-responsive">
             </div>
           <div class="col-md-4">
-            <h3 class="text-center headall">Discuss</h3>
-            <p class="fontall text-center" style="width:90%;">Stuff about your favorite teams,events & players.</p>
+            <h3 class="text-center headall color1" style="color:#336;font-size:31px;">Discuss</h3>
+            <p class="fontall text-center changecolor" style="width:90%;color:#336;font-size:20px;">Stuff about your favorite teams,events & players.</p>
             <img src="discuss.svg" height="150" width="150" class="center-block img-responsive">
           </div>
           <div class="col-md-3">
-            <h3 class="text-center headall">Play</h3>
-            <p class="fontall text-center">Stuff about your favorite teams,events & players.</p>
+            <h3 class="text-center headall color1" style="color:#336;font-size:31px;">Play</h3>
+            <p class="fontall text-center changecolor" style="color:#336;font-size:20px;">Stuff about your favorite teams,events & players.</p>
             <img src="play.svg" height="150" width="150" class="center-block img-responsive">
           </div>
           <div class="col-md-1"></div>
@@ -160,6 +162,7 @@
       </div>
       </div>-->                                                     
       <footer>
+        <br/>
     <div class="row" style="background-color: #818a91;margin:30px;line-height: 30px;padding:40px;">
         <div class="col-md-4" style="text-align: center">
             <a href="#" style="color: white"><strong>About Us</strong></a><br>
