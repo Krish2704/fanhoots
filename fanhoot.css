@@ -1,7 +1,7 @@
- @font-face { font-family: babasneue; src: url('fonts/BebasNeue.otf'); } 
-@font-face { font-family: ultralight; src: url('fonts/Montserrat-UltraLight.otf'); } 
-@font-face { font-family: light; src: url('fonts/Montserrat-Light.otf'); } 
-@font-face { font-family: regular; src: url('fonts/Montserrat-Regular.otf'); } 
+ @font-face { font-family: babasneue; src: url('BebasNeue.otf'); } 
+@font-face { font-family: ultralight; src: url('Montserrat-UltraLight.otf'); } 
+@font-face { font-family: light; src: url('Montserrat-Light.otf'); } 
+@font-face { font-family: regular; src: url('Montserrat-Regular.otf'); } 
 
 ::-webkit-input-placeholder { font-size:1em; }
 ::-moz-placeholder { font-size:1.5em; } /* firefox 19+ */
