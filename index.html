@@ -5,57 +5,67 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
- 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="fanhoots.js"></script>
   </head>
   <body>
     <div class="home container-fluid">
-      <div class="row visible-md visible-lg hidden-sm hidden-xs" align="right" style="margin-bottom:0px;color:white;font-size:0.9em;margin-top:2%;">
-        <span style="margin-right:35px;font-size:0.9em">forgot password?</span>
-      </div>
       <div class="row top1">
         <div class="col-md-2 visible-md visible-lg hidden-sm hidden-xs">
-           <img src="https://s32.postimg.org/d6b34yn0l/xyz.png" id="change">
+           <img src="https://s32.postimg.org/d6b34yn0l/xyz.png" style="margin-top:-10%;">
       	</div>
-      	<div class="col-md-6"></div>
-      	<div class="col-md-4 visible-md visible-lg hidden-sm hidden-xs">
-      		<input type="email" placeholder="  Email" id="movedown">
-      		<input type="password" placeholder="  Password" id="movedown">
-          <span><button type="submit" class="btn" id="login">Login</button><br/>
-            <div class="row pull-right" id="mtop" style="margin-right:7px;">
-              <div class="col-md-4"></div>
-              <div class="col-md-1"><hr style="width:23px;margin-bottom:-5px;margin-left:0px;"></div>
-              <div class="col-md-1"><h5 style="color:white;margin-bottom:-5px;"><span id="mbottom">or</span></h5></div>
-              <div class="col-md-1"><hr style="width:23px;margin-left:-20px;margin-right:10px;margin-bottom:-5px;"></div>
-              </div>
-<div class="row">
-              <div class="col-md-offset-8 col-md-4"><span style="color:white;font-size:.9em;padding-left:25px;">Login with</span></div>
-</div> 
-              
-                      <div style="margin-top:7px;margin-right:50px;" align=right>
-                        <button class="btn" ><i class="fa fa-facebook fa-x" style="color:#3b5998;"></i></button>
-                      </div>
-      	    </div>
-          </span>
+          <div class="col-md-8"></div>
+          <div class="col-md-1 visible-md visible-lg hidden-sm hidden-xs" style="margin-top:3%; color:white; "  >
+            <button class="btn btn-block" id="login" style="color:white;" data-toggle="modal" data-target="#myModal">Login</button>
+            </div>
+            
+            <!--mobile-->
+            <div class="hidden-md hidden-lg visible-sm visible-xs pull-right" style="margin-top:3%; color:white;margin-right:10%; "  >
+            <button class="btn btn-block" id="login" style="color:white;" data-toggle="modal" data-target="#myModal">Login</button>
+            </div>
+                <div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content" style="background-color:none;">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+       
+      </div>
+      <div class="modal-body">
+        
+                <form class="well">
+                  <h2 class="text-center text-responsive" style="color:black;">LOGIN</h2>
+                  <hr style="border:1px solid #ccc;margin-top:-0.5%;"><br/>
+                  <input type="email" placeholder="Email" style="margin-left:6%;">
+                  <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
+                  <input type="password" placeholder="Password" style="margin-left:6%";>
+                    <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
+                  <button type="submit" class="btn btn-block btn-danger" style="width:96%;margin-left:5%;line-height:1.9em;">LOGIN</button><br/>
+                  <hr style="border-bottom:1px solid black;margin-top:5%;"><br/>
+                  <button type="submit" class="btn btn-block btn-primary text-center" style="width:96%;margin-left:5%;line-height:1.9em;"><i class="fa fa-facebook"></i>&nbsp&nbspLOGIN WITH FACEBOOK</button><br/>
+                </form>
+                
+      </div>
+      
+    </div>
+
+  </div>
+
+                </div>
+                
+                
+                
+          <div class="col-md-1"></div>
         </div>
+        <!--</div>-->
         <!--mobile view-->
       	<div class=" row hidden-md hidden-lg visible-sm visible-xs" align="center">
           <div class="col-xs-12"><img src="https://s32.postimg.org/d6b34yn0l/xyz.png" class="img-responsive center-block"></div>
-      		<div class="col-xs-12"><input type="email" placeholder="  Email" class="movedown1"></div>
-      		<div class="col-xs-12"><input type="password" placeholder="  Password" class="movedown1" style="margin-bottom:0px;"><br>
-          <span style="font-size:1.5em;color:#ccc;margin-bottom:10px;">forgot password?</span></div>
-           
-          <br>
-          <center>
-          <span><button type="submit" class="btn" id="login" style="font-size:1.7em;width:12%;">Login</button><br/>
-          <span style="color:#ccc;font-size:0.6em">&mdash;&mdash; or &mdash;&mdash;<br>Login with</span>
-                      <div align="center" style="margin-top:7px;">
-                                        <button class="btn" ><i class="fa fa-facebook " style="color:#3b5998;font-size:1.5em;"></i></button>
-                      </div>
-      	    
-          </span>
-          </center>
+      		
         </div>
         <br>
 	  
@@ -65,7 +75,47 @@
         <h3 class="text-center" style="color:white;font-size:1.9em;">Enjoy!</h3><br/>
         <div class="text-center visible-md visible-lg hidden-sm hidden-xs"><button class="btn text-responsive" id="join">Join us</button></div>
         <!--mobile-->
-        <div class="text-center hidden-md hidden-lg visible-sm visible-xs"><button class="btn text-responsive" style="font-size:3em;" id="join">Join us</button></div>
+        <div class="text-center hidden-md hidden-lg visible-sm visible-xs">
+          <button class="btn text-responsive" style="font-size:3em;" id="join">Join us</button>
+              <div class="container">
+  <!-- Trigger the modal with a button -->
+
+  <button class="button btn" style="font-size:3em;" id="join" data-toggle="modal" data-target="#myModal">Join us</button>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog jumbotron">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><h2 class="text-center text-responsive modal-title">REGISTER</h2>
+          <hr style="border:1px solid #ccc;margin-top:-0.5%;"></h4>
+        </div>
+        <div class="modal-body">
+          <form class="well">
+  <input type="text" placeholder="Name">
+  <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
+  <input type="text" placeholder="Email">
+    <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
+  <input type="text" placeholder="Password">
+    <hr style="border-bottom:1px solid black;margin-top:0%;"><br/>
+  <button type="submit" class="btn btn-block btn-danger" style="width:96%;margin-left:5%;line-height:1.9em;">REGISTER</button><br/>
+  <hr style="border-bottom:1px solid black;margin-top:5%;"><br/>
+  <button type="submit" class="btn btn-block btn-primary text-center" style="width:96%;margin-left:5%;line-height:1.9em;"><i class="fa fa-facebook"></i>&nbsp&nbspLOGIN WITH FACEBOOK</button><br/>
+     </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+          </div>
         <!-- end -->
       </div>
       <br/>
@@ -91,7 +141,7 @@
         </div>
       </div>
       <br/>
-      <div class="container-fluid" style="margin-bottom:0px">
+    <!--  <div class="container-fluid" style="margin-bottom:0px">
         
     <div class="row" style="background-color: #818a91;margin:30px;line-height: 30px;padding:40px;">
         <div class="col-sm-4" style="text-align: center">
@@ -109,7 +159,24 @@
 
         </div>
       </div>
-      </div>
+      </div>-->                                                     
+      <footer>
+    <div class="row" style="background-color: #818a91;margin:30px;line-height: 30px;padding:40px;">
+        <div class="col-md-4" style="text-align: center">
+            <a href="#" style="color: white"><strong>About Us</strong></a><br>
+            <a href="#" style="color: white"><strong>Terms Of Use</strong></a><br>
+        </div>
+        <div class="col-md-4" style="text-align: center">
+            <a href="#" style="color: white"><strong>Community Guidelines</strong></a><br>
+            <a href="#" style="color: white"><strong>Contact Us</strong></a><br>
 
+        </div>
+        <div class="col-md-4" style="text-align: center">
+            <a href="#" style="color: white"><strong>Privacy Policy</strong></a><br>
+            <a href="#" style="color: white"><strong>FAQs</strong></a><br>
+
+        </div>
+    </div>
+</footer>
   </body>
 </html>
