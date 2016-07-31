@@ -1,4 +1,4 @@
- @font-face { font-family: babasneue; src: url('fonts/BebasNeue.otf'); } 
+ @font-face { font-family: babasneue; src: url('BebasNeue.otf'); } 
 
 ::-webkit-input-placeholder { font-size:1.5em; }
 ::-moz-placeholder { font-size:1.5em; } /* firefox 19+ */
