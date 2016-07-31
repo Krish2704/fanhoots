@@ -1,0 +1,105 @@
+ @font-face { font-family: babasneue; src: url('fonts/BebasNeue.otf'); } 
+
+::-webkit-input-placeholder { font-size:1.5em; }
+::-moz-placeholder { font-size:1.5em; } /* firefox 19+ */
+:-ms-input-placeholder { font-size:1.5em; } /* ie */
+input:-moz-placeholder { font-size:1.5em; }
+
+
+.home{
+  //background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top center; 
+  background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') no-repeat center ;
+	min-height:45em;
+	width:100%;
+}
+input{
+	color:white;
+	font-size:2em;
+}
+#change{
+  margin-top:-20%;
+}
+#movedown{
+	margin-top:6%;
+	line-height:2.5em;
+	border-radius:5px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-top:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+	width:37%;
+	padding-left:5px;
+	color:white;
+	background:none;
+}
+.movedown1{
+	line-height:4em;
+	color:white;
+	padding-left:5px;
+	border-radius:7px;
+	margin-bottom:15px;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-top:2px solid #ccc;
+	border-bottom:2px solid #ccc;
+	width:40%;
+	background:none;
+}
+#login{
+	line-height:1.5em;
+	font-size:1.3em;
+	border-radius:10px;
+}
+#mtop{
+	margin-top:-2%;
+}
+#mbottom{
+	line-height: 1.5em;
+	margin-left:-5px;
+}
+.top1{
+	margin-top:-1.8%;
+}
+a{
+	color:red;
+}
+#hh1{
+	font-size:6.143em;
+	font-family:babasneue;
+	color:white;
+	font-weight:400;
+	//border-bottom:1px solid white;
+}
+#join{
+	border-radius:50px;
+	background-color:white;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:10%;
+	margin-top:1%;
+	font-size:2em;
+	color:#333366;
+	font-family: Montsterrat;
+
+}
+.fontall1{
+	color:#333366;
+	font-size:1.6em;
+	//width:80%;
+}
+.fontall{
+	color:#333366;
+	font-size:1.6em;
+	//width:80%;
+}
+.headall1{
+	font-weight:400;
+	font-size:2.2em;
+	line-height:1.9em;
+}
+.headall{
+	font-weight:400;
+	font-size:2.2em;
+	//margin-left:-15%;
+	line-height:1.9em;
+}
