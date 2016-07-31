@@ -15,8 +15,8 @@ input:-moz-placeholder { font-size:1.5em; }
 }
 .home{
   //background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top; 
-  //background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') no-repeat;
-  background:url('hey.jpe') no-repeat center;
+  //background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') repeat-y;
+  background:url('background.jpg') no-repeat top;
 	min-height:50em;
 	width:100%;
 }
@@ -54,11 +54,29 @@ input{
 	line-height:1.5em;
 	font-size:1.5em;
 	border-radius:10px;
+	border:2px solid white;
 	background:none;
 }
 #login:hover{
 	color:white;
 	border-radius:0px;
+	border-bottom:4px solid white;
+}
+#join{
+	border-radius:50px;
+	background-color:#fff;
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:10%;
+	border:2px solid white;
+	margin-top:1%;
+	font-size:2em;
+	color:#333366;
+	font-family: light;
+}
+#join:hover{
+	//color:white;
+	border-radius:10px;
 	border-bottom:4px solid white;
 }
 #mtop{
@@ -87,18 +105,7 @@ a{
 .color2{
 	font-family:light;
 }
-#join{
-	border-radius:50px;
-	background-color:white;
-	padding-left:15px;
-	padding-right:15px;
-	margin-bottom:10%;
-	margin-top:1%;
-	font-size:2em;
-	color:#333366;
-	font-family: light;
 
-}
 .fontall1{
 	color:#333366;
 	font-size:1.6em;
