@@ -1,4 +1,4 @@
- @font-face { font-family: babasneue; src: url('BebasNeue.otf'); } 
+ @font-face { font-family: babasneue; src: url('fonts/BebasNeue.otf'); } 
 
 ::-webkit-input-placeholder { font-size:1.5em; }
 ::-moz-placeholder { font-size:1.5em; } /* firefox 19+ */
@@ -6,8 +6,12 @@
 input:-moz-placeholder { font-size:1.5em; }
 
 
+#fb{
+  -webkit-transition: addClass 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: addClass 0.5s;
+}
 .home{
-  background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top center; 
+  background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top; 
   //background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') no-repeat center ;
 	min-height:45em;
 	width:100%;
@@ -15,9 +19,6 @@ input:-moz-placeholder { font-size:1.5em; }
 input{
 	color:white;
 	font-size:2em;
-}
-#change{
-  margin-top:-20%;
 }
 #movedown{
 	margin-top:6%;
@@ -47,8 +48,14 @@ input{
 }
 #login{
 	line-height:1.5em;
-	font-size:1.3em;
+	font-size:1.5em;
 	border-radius:10px;
+	background:none;
+}
+#login:hover{
+	color:white;
+	border-radius:0px;
+	border-bottom:4px solid white;
 }
 #mtop{
 	margin-top:-2%;
@@ -56,9 +63,6 @@ input{
 #mbottom{
 	line-height: 1.5em;
 	margin-left:-5px;
-}
-.top1{
-	margin-top:-1.8%;
 }
 a{
 	color:red;
@@ -102,4 +106,25 @@ a{
 	font-size:2.2em;
 	//margin-left:-15%;
 	line-height:1.9em;
+}
+.well{
+  margin-top:2%;
+  width:70%;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+  border:1px solid black;
+}
+hr{
+  margin-left:5%;
+}
+input{
+  border:none;
+  background:none;
+  //color:white;
+  margin-left:5%;
+}
+input:focus{
+  outline:none;
+  color:black;
 }
