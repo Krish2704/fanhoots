@@ -22,6 +22,15 @@ input:-moz-placeholder { font-size:1.5em; }
 	height:46.5em;
 	width:100%;
 }
+.home1{
+  //background:url('http://i.imgur.com/tmMvLwW.jpg') no-repeat top; 
+  //background:url('https://static.pexels.com/photos/61135/pexels-photo-61135.jpeg') repeat-y;
+  background:url('background.jpg') no-repeat top;
+  background-size:cover;
+	min-height:50em;
+	height:55em;
+	width:100%;
+}
 input{
 	color:white;
 	font-size:2em;
