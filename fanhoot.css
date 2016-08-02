@@ -19,7 +19,7 @@ input:-moz-placeholder { font-size:1.5em; }
   background:url('background.jpg') no-repeat top;
   background-size:cover;
 	min-height:43em;
-	height:44em;
+	height:100vh;
 	width:100%;
 }
 .home1{
